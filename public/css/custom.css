@@ -1,0 +1,126 @@
+/* Set black box and background*/
+html,body{height:100%;margin:0;padding:0;background-color: lightgrey}
+.container-fluid,.row{height:100%;background-color:lightgrey}
+.board-container{
+  margin: auto;
+  background-color: black;
+  width: 960px;
+  height: 100px;
+  padding:0;
+}
+
+/* City Pic */
+.city{
+  display: block;
+  margin: auto;
+  width: 960px;
+  height: 500px;
+}
+
+/* Align column with upper pic */
+.row-centered {
+  text-align: center;
+}
+
+/* Set column dimenions */
+.col-md-8 {
+  background-color: white;
+  display: inline-block;
+  float: none;
+  padding-bottom: 10px;
+  width: 960px;
+  height: 425px;
+}
+
+/* Configure top-left button */
+.button1 {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 0;
+    font-size: 18px;
+    width: 350px;
+    height: 55px;
+    color: white;
+    background-color: lightblue;
+    border-color: white
+
+}
+
+/* Configure top-right button */
+.button2 {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 350px;
+    height: 55px;
+    border-radius: 0;
+    background-color: #ff80aa;
+    border-color: white
+}
+
+/* Configure bottom-center button */
+.button3 {
+    float: none;
+    margin-top: 25px;
+    margin-left: -5px;
+    border-style: none;
+    width: 350px;
+    height: 55px;
+    background-color: #ffcc66;
+    border-radius: 0;
+}
+
+/* Set first line of text */
+h2 {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.textleft {
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 220px;
+}
+
+/* Get two navbar to set side-by-side*/
+.previous {
+    float: left;
+    margin-left: -18px;
+}
+
+.next {
+float: right;
+}
+
+a {
+  padding-left: 10px;
+}
+
+.headerleft {
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+.textheaderleft {
+  margin-left: 340px;
+  margin-top: 0;
+  line-height: 10px;
+
+}
+
+.headerright {
+  margin-right: 430px;
+  margin-top: 25px;
+
+}
+
+.textheaderright {
+  margin-right: 395px;
+  margin-top: 0;
+  line-height: 10px;
+}
